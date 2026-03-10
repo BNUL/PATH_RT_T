@@ -1,6 +1,6 @@
 {
-    "title": "PATH_RT_T: Path-length based Radiative Transfer model for Terrain",
-    "description": "A Python implementation of a path-length based radiative transfer model for simulating vegetation reflectance over sloped terrain. The model accounts for 3D canopy structure using Canopy Height Models (CHM) and incorporates terrain effects on radiative transfer processes.",
+    "title": "PATH_RT_T: CHM-based Radiative Transfer Model for Sloped Terrain",
+    "description": "A Python implementation of a path-length based radiative transfer model that uses Canopy Height Models (CHM) to simulate vegetation reflectance over sloped terrain. The model explicitly accounts for 3D canopy structure and incorporates terrain effects on radiative transfer processes.",
     "creators": [
         {
             "name": "Weihua Li",

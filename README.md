@@ -1,11 +1,11 @@
-# PATH_RT_T: Path-length based Radiative Transfer model for Terrain
+# PATH_RT_T: CHM-based Radiative Transfer Model for Sloped Terrain
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
-PATH_RT_T is a Python implementation of a path-length based radiative transfer model designed for simulating vegetation reflectance over sloped terrain. The model accounts for the 3D structure of forest canopies using Canopy Height Models (CHM) and incorporates terrain effects on radiative transfer processes.
+PATH_RT_T is a Python implementation of a path-length based radiative transfer model that uses Canopy Height Models (CHM) to simulate vegetation reflectance over sloped terrain. The model explicitly incorporates the 3D structure of forest canopies from CHM data and accounts for terrain effects on radiative transfer processes.
 
 ### Key Features
 

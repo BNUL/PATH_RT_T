@@ -1,6 +1,6 @@
 # PATH_RT_T: CHM-based Radiative Transfer Model for Sloped Terrain
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18937065.svg)](https://doi.org/10.5281/zenodo.18937065)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview

@@ -7,7 +7,7 @@ authors:
     affiliation: "The University of Hong Kong"
 title: "PATH_RT_T: CHM-based Radiative Transfer Model for Sloped Terrain"
 version: 1.0.0
-doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.18937065
 date-released: 2026-03-10
 url: "https://github.com/BNUL/PATH_RT_T"
 repository-code: "https://github.com/BNUL/PATH_RT_T"

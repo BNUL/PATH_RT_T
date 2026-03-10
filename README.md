@@ -177,10 +177,11 @@ If you use this model in your research, please cite:
 ```bibtex
 @software{PATH_RT_T,
   author = {Weihua Li},
-  title = {PATH\_RT\_T: Path-length based Radiative Transfer model for Terrain},
+  title = {PATH\_RT\_T: CHM-based Radiative Transfer Model for Sloped Terrain},
   year = {2026},
+  version = {1.0.1},
   publisher = {Zenodo},
-  doi = {10.5281/zenodo.XXXXXXX},
+  doi = {10.5281/zenodo.18937065},
   url = {https://github.com/BNUL/PATH_RT_T}
 }
 ```

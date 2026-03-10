@@ -8,13 +8,6 @@
             "orcid": "0000-0003-1529-5967"
         }
     ],
-    "contributors": [
-        {
-            "name": "none",
-            "affiliation": "Contributor Institution",
-            "type": "Other"
-        }
-    ],
     "keywords": [
         "radiative transfer",
         "BRDF",
@@ -51,11 +44,6 @@
         "Li, X.W., Strahler, A.H., & Woodcock, C.E. (1995). A Hybrid Geometric Optical-Radiative Transfer Approach for Modeling Albedo and Directional Reflectance of Discontinuous Canopies. IEEE Transactions on Geoscience and Remote Sensing, 33, 466-480. https://doi.org/10.1109/TGRS.1995.8746028",
         "Chen, J.M., & Leblanc, S.G. (1997). A four-scale bidirectional reflectance model based on canopy architecture. IEEE Transactions on Geoscience and Remote Sensing, 35, 1316-1337. https://doi.org/10.1109/36.628798",
         "Li, X.W., & Strahler, A.H. (1988). Modeling the Gap Probability of a Discontinuous Vegetation Canopy. IEEE Transactions on Geoscience and Remote Sensing, 26, 161-170. https://doi.org/10.1109/36.3017"
-    ],
-    "grants": [
-        {
-            "id": "none"
-        }
     ],
     "version": "1.0.0"
 }

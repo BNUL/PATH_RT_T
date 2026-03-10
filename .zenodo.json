@@ -1,0 +1,61 @@
+{
+    "title": "PATH_RT_T: Path-length based Radiative Transfer model for Terrain",
+    "description": "A Python implementation of a path-length based radiative transfer model for simulating vegetation reflectance over sloped terrain. The model accounts for 3D canopy structure using Canopy Height Models (CHM) and incorporates terrain effects on radiative transfer processes.",
+    "creators": [
+        {
+            "name": "Weihua Li",
+            "affiliation": "The University of Hong Kong",
+            "orcid": "0000-0003-1529-5967"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "none",
+            "affiliation": "Contributor Institution",
+            "type": "Other"
+        }
+    ],
+    "keywords": [
+        "radiative transfer",
+        "BRDF",
+        "terrain effects",
+        "canopy structure",
+        "remote sensing",
+        "vegetation modeling",
+        "forest reflectance",
+        "CHM",
+        "3D canopy",
+        "slope effects"
+    ],
+    "license": {
+        "id": "MIT"
+    },
+    "upload_type": "software",
+    "access_right": "open",
+    "language": "eng",
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/BNUL/PATH_RT_T",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+        }
+    ],
+    "references": [
+        "Li, W., Yan, G., Mu, X., Tong, Y., Zhou, K., & Xie, D. (2024). Modeling the hotspot effect for vegetation canopies based on path length distribution. Remote Sensing of Environment, 303, 113985. https://doi.org/10.1016/j.rse.2023.113985",
+        "Li, W., Yan, G., Geng, J., Guo, Y., Xie, T., Mu, X., Xie, D., Roujean, J.-L., Zhou, G., & Gastellu-Etchegorry, J.-P. (2025). A model based on spectral invariant theory for correcting topographic effects on vegetation canopy reflectance. Remote Sensing of Environment, 322, 114695. https://doi.org/10.1016/j.rse.2025.114695",
+        "Li, W., & Mu, X. (2021). Using fractal dimension to correct clumping effect in leaf area index measurement by digital cover photography. Agricultural and Forest Meteorology, 311, 108695. https://doi.org/10.1016/j.agrformet.2021.108695",
+        "Gastellu-Etchegorry, J.-P., Li, W., Yan, G., Cao, B., Kallel, A., Hedman, J., Wang, Y., Zhen, Z., Yin, T., & Lauret, N. (2026). DART 3D radiative transfer modeling applied to RAMI forests. Part 1: Assessing canopy structure effects on directional TIR emissivity. Journal of Remote Sensing, 0, 0738. https://doi.org/10.34133/remotesensing.0738",
+        "Li, W., Gastellu-Etchegorry, J.-P., Yin, T., Lauret, N., & Yan, G. (2026). DART 3D radiative transfer modeling applied to RAMI forests. Part 2: LiDAR waveform simulation and canopy structure analysis. Journal of Remote Sensing, 0, 0737. https://doi.org/10.34133/remotesensing.0737",
+        "Ross, J. (1981). The radiation regime and architecture of plant stands. The Hague: W. Junk.",
+        "Kuusk, A. (1991). The hot-spot effect in plant canopy reflectance. In R.B. Myneni, & J. Ross (Eds.), Photon-Vegetation Interactions, Application in Optical Remote Sensing and Plant Ecology (pp. 139-159). New York: Springer Verlag.",
+        "Li, X.W., Strahler, A.H., & Woodcock, C.E. (1995). A Hybrid Geometric Optical-Radiative Transfer Approach for Modeling Albedo and Directional Reflectance of Discontinuous Canopies. IEEE Transactions on Geoscience and Remote Sensing, 33, 466-480. https://doi.org/10.1109/TGRS.1995.8746028",
+        "Chen, J.M., & Leblanc, S.G. (1997). A four-scale bidirectional reflectance model based on canopy architecture. IEEE Transactions on Geoscience and Remote Sensing, 35, 1316-1337. https://doi.org/10.1109/36.628798",
+        "Li, X.W., & Strahler, A.H. (1988). Modeling the Gap Probability of a Discontinuous Vegetation Canopy. IEEE Transactions on Geoscience and Remote Sensing, 26, 161-170. https://doi.org/10.1109/36.3017"
+    ],
+    "grants": [
+        {
+            "id": "none"
+        }
+    ],
+    "version": "1.0.0"
+}

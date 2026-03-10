@@ -1,0 +1,204 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Li"
+    given-names: "Weihua"
+    orcid: "https://orcid.org/0000-0003-1529-5967"
+    affiliation: "The University of Hong Kong"
+title: "PATH_RT_T: Path-length based Radiative Transfer model for Terrain"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2026-03-10
+url: "https://github.com/BNUL/PATH_RT_T"
+repository-code: "https://github.com/BNUL/PATH_RT_T"
+keywords:
+  - radiative transfer
+  - BRDF
+  - terrain effects
+  - canopy structure
+  - remote sensing
+  - vegetation modeling
+  - forest reflectance
+license: MIT
+abstract: >
+  PATH_RT_T is a Python implementation of a path-length based 
+  radiative transfer model designed for simulating vegetation 
+  reflectance over sloped terrain. The model accounts for the 
+  3D structure of forest canopies using Canopy Height Models 
+  (CHM) and incorporates terrain effects on radiative transfer 
+  processes, including hotspot effects, multiple scattering, 
+  and geometric-optical components.
+references:
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: W.
+      - family-names: Yan
+        given-names: G.
+      - family-names: Mu
+        given-names: X.
+      - family-names: Tong
+        given-names: Y.
+      - family-names: Zhou
+        given-names: K.
+      - family-names: Xie
+        given-names: D.
+    title: "Modeling the hotspot effect for vegetation canopies based on path length distribution"
+    journal: "Remote Sensing of Environment"
+    year: 2024
+    volume: 303
+    start: 113985
+    doi: 10.1016/j.rse.2023.113985
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: W.
+      - family-names: Yan
+        given-names: G.
+      - family-names: Geng
+        given-names: J.
+      - family-names: Guo
+        given-names: Y.
+      - family-names: Xie
+        given-names: T.
+      - family-names: Mu
+        given-names: X.
+      - family-names: Xie
+        given-names: D.
+      - family-names: Roujean
+        given-names: J.-L.
+      - family-names: Zhou
+        given-names: G.
+      - family-names: Gastellu-Etchegorry
+        given-names: J.-P.
+    title: "A model based on spectral invariant theory for correcting topographic effects on vegetation canopy reflectance"
+    journal: "Remote Sensing of Environment"
+    year: 2025
+    volume: 322
+    start: 114695
+    doi: 10.1016/j.rse.2025.114695
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: W.
+      - family-names: Mu
+        given-names: X.
+    title: "Using fractal dimension to correct clumping effect in leaf area index measurement by digital cover photography"
+    journal: "Agricultural and Forest Meteorology"
+    year: 2021
+    volume: 311
+    start: 108695
+    doi: 10.1016/j.agrformet.2021.108695
+  - type: article
+    authors:
+      - family-names: Gastellu-Etchegorry
+        given-names: J.-P.
+      - family-names: Li
+        given-names: W.
+      - family-names: Yan
+        given-names: G.
+      - family-names: Cao
+        given-names: B.
+      - family-names: Kallel
+        given-names: A.
+      - family-names: Hedman
+        given-names: J.
+      - family-names: Wang
+        given-names: Y.
+      - family-names: Zhen
+        given-names: Z.
+      - family-names: Yin
+        given-names: T.
+      - family-names: Lauret
+        given-names: N.
+    title: "DART 3D radiative transfer modeling applied to RAMI forests. Part 1: Assessing canopy structure effects on directional TIR emissivity"
+    journal: "Journal of Remote Sensing"
+    year: 2026
+    volume: 0
+    start: 0738
+    doi: 10.34133/remotesensing.0738
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: W.
+      - family-names: Gastellu-Etchegorry
+        given-names: J.-P.
+      - family-names: Yin
+        given-names: T.
+      - family-names: Lauret
+        given-names: N.
+      - family-names: Yan
+        given-names: G.
+    title: "DART 3D radiative transfer modeling applied to RAMI forests. Part 2: LiDAR waveform simulation and canopy structure analysis"
+    journal: "Journal of Remote Sensing"
+    year: 2026
+    volume: 0
+    start: 0737
+    doi: 10.34133/remotesensing.0737
+  - type: book
+    authors:
+      - family-names: Ross
+        given-names: J.
+    title: "The radiation regime and architecture of plant stands"
+    year: 1981
+    publisher:
+      name: "W. Junk"
+      city: "The Hague"
+  - type: proceedings
+    authors:
+      - family-names: Kuusk
+        given-names: A.
+    title: "The hot-spot effect in plant canopy reflectance"
+    collection-title: "Photon-Vegetation Interactions, Application in Optical Remote Sensing and Plant Ecology"
+    editors:
+      - family-names: Myneni
+        given-names: R.B.
+      - family-names: Ross
+        given-names: J.
+    year: 1991
+    start: 139
+    end: 159
+    publisher: 
+      name: "Springer Verlag"
+      city: "New York"
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: X.W.
+      - family-names: Strahler
+        given-names: A.H.
+      - family-names: Woodcock
+        given-names: C.E.
+    title: "A Hybrid Geometric Optical-Radiative Transfer Approach for Modeling Albedo and Directional Reflectance of Discontinuous Canopies"
+    journal: "IEEE Transactions on Geoscience and Remote Sensing"
+    year: 1995
+    volume: 33
+    start: 466
+    end: 480
+    doi: 10.1109/TGRS.1995.8746028
+  - type: article
+    authors:
+      - family-names: Chen
+        given-names: J.M.
+      - family-names: Leblanc
+        given-names: S.G.
+    title: "A four-scale bidirectional reflectance model based on canopy architecture"
+    journal: "IEEE Transactions on Geoscience and Remote Sensing"
+    year: 1997
+    volume: 35
+    start: 1316
+    end: 1337
+    doi: 10.1109/36.628798
+  - type: article
+    authors:
+      - family-names: Li
+        given-names: X.W.
+      - family-names: Strahler
+        given-names: A.H.
+    title: "Modeling the Gap Probability of a Discontinuous Vegetation Canopy"
+    journal: "IEEE Transactions on Geoscience and Remote Sensing"
+    year: 1988
+    volume: 26
+    start: 161
+    end: 170
+    doi: 10.1109/36.3017

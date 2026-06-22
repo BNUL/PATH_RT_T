@@ -122,7 +122,7 @@ for vaa in vaa_array:
     for vza in vza_array:
         try:
             geo_comps = terrain.get_fast_geometry(
-                terrain.sun_mask, SZA, SAA, vza, vaa
+                SZA, SAA, vza, vaa
             )
             
             brf = MyModel.PATH_RT_Terrain(

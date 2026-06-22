@@ -71,7 +71,7 @@ print(f"  View geometry: VZA={VZA}°, VAA={VAA}°")
 
 # Get geometric components
 geo_comps = terrain.get_fast_geometry(
-    terrain.sun_mask, SZA, SAA, VZA, VAA
+    SZA, SAA, VZA, VAA
 )
 
 # Calculate BRF
@@ -109,7 +109,7 @@ for vza in vza_range:
 
     try:
         geo_comps = terrain.get_fast_geometry(
-            terrain.sun_mask, SZA, SAA, vza_actual, vaa_actual
+            SZA, SAA, vza_actual, vaa_actual
         )
         
         brf = MyModel.PATH_RT_Terrain(
